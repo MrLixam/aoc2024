@@ -9,7 +9,7 @@
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt");
+	file.open("input");
 
 	std::map<int, std::vector<int>> rules_map;
 

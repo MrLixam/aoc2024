@@ -8,7 +8,7 @@
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt");
+	file.open("input");
 	std::vector<std::string> map;
 
 	int direction_x = -1, direction_y = 0;

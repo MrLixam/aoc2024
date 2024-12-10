@@ -15,7 +15,7 @@ void printVector(const std::vector<std::string>& vec)
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt");
+	file.open("input");
 
 	std::string line;
 	std::vector<std::string> disk;

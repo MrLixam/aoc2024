@@ -29,7 +29,7 @@ bool obtainable(long long value, long long current, std::vector<long long>& numb
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt");
+	file.open("input");
 
 	std::string current;
 	unsigned long long total = 0;

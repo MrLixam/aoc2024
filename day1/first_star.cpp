@@ -13,7 +13,7 @@ int abs(int first, int second)
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt", std::ifstream::in);
+	file.open("input", std::ifstream::in);
 
 	std::string current;
 	std::vector<int> first;

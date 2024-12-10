@@ -8,7 +8,7 @@
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt");
+	file.open("input");
 
 	std::vector<std::string> word_search;
 	std::string tmp;

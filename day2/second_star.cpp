@@ -42,7 +42,7 @@ bool test_list(std::vector<int> list)
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt");
+	file.open("input");
 
 	int valid = 0;
 	std::string current;

@@ -11,7 +11,7 @@
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt");
+	file.open("input");
 
 	std::map<char, std::vector<std::tuple<int, int>>> instances;
 	std::vector<std::string> map;

@@ -28,7 +28,7 @@ int check_pos(std::string str, size_t pos)
 int main(void)
 {
 	std::ifstream file;
-	file.open("input.txt");
+	file.open("input");
 
 	std::string str;
 

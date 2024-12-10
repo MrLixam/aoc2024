@@ -58,7 +58,7 @@ void printVector(const std::vector<std::string>& vec)
 
 int main(void)
 {
-	std::ifstream file("input.txt");
+	std::ifstream file("input");
 	std::string line;
 	getline(file, line);
 

@@ -44,6 +44,7 @@ int main(void)
 	std::string list = ".";
 	while (true)
 	{
+		std::vector<std::string>::iterator point = find(disk.begin(), disk.end(), ".");
 		std::vector<std::string>::iterator number;
 		for (auto it = disk.rbegin(); it != disk.rend(); it++)
 		{
@@ -54,7 +55,13 @@ int main(void)
 				break;
 			}
 		}
-		break;
+		if (point < number)
+		{
+			*point = *number;
+			*number = ".";
+		}
+		else
+			break;
 	}
 	unsigned long long value = 0;
 	for (size_t i = 0; disk[i] != "."; i++)
